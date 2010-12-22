@@ -18,7 +18,7 @@ static CygnusServices *sharedCygnusServices;
 - (id)init
 {
 	[super init];
-	host = [[NSString alloc] initWithString:@"https://secure.prestigeticketing.com/ceGateway/servlet/gateway"];
+	host = [[NSString alloc] initWithString:@"https://ceGateway/servlet/gateway"];
 	connectionTimeoutInterval = 10.0;
 	requestTimeoutInterval = 40.0;		
 	return self;	
